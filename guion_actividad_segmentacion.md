@@ -37,9 +37,20 @@ Una parte importante del aprendizaje a adquirir consiste en construir un flujo d
 
 **1. Obtención de un mapa de biodiversidad del "Pinar de Yunquera"**
 
-- Aquí puedes descargar el límite de la zona de estudio. El sistema de coordenadas es el EPSG 25830.
-- Este enlace contiene un mapa de vegetación de la zona de estudio. Recuerda que en este caso deberás de construir un mapa de vegetación usando los polígonos del mapa anterior como "subrrogados" de las comunidades ecológicas. **FALTA ESTO**
-- Descarga todos los datos de presencia de especies en la zona de estudio en el portal de [GBIF](https://www.gbif.org/). En [este](https://youtu.be/6OOusJU4ljs?t=1456) vídeo puedes ver cómo se hace eso. El vídeo es muy largo, así que no avances más allá de donde se explica este asunto. Comprobarás que el mapa que tiene GBIF para descargar los datos es poco amigable. Así que te costará un poco encontrar la zona de estudio. Esta zona se encuentra en el extremo occidental de la costa mediterránea andaluza, a pocos kilómetros de la costa. La siguiente imagen muestra una visualización aproximada de la zona que has de seleccionar con la herramienta del portal de GBIF. **FALTA ESTO**
+- [Aquí](https://github.com/aprendiendo-cosas/A_segmentacion_SIG_II_geoforest/raw/main/geoinfo/limite_yunquera.zip) puedes descargar el límite de la zona de estudio. El sistema de coordenadas es el EPSG 25830.
+- [Este](https://github.com/aprendiendo-cosas/A_segmentacion_SIG_II_geoforest/raw/main/geoinfo/vegetacion_yunquera.zip) enlace contiene un mapa de vegetación de la zona de estudio. Recuerda que en este caso deberás de construir un mapa de vegetación usando los polígonos del mapa anterior como "subrrogados" de las comunidades ecológicas. 
+- Descarga todos los datos de presencia de especies en la zona de estudio en el portal de [GBIF](https://www.gbif.org/). En [este](https://youtu.be/6OOusJU4ljs?t=1456) vídeo puedes ver cómo se hace eso. El vídeo es muy largo, así que no avances más allá de donde se explica este asunto. Comprobarás que el mapa que tiene GBIF para descargar los datos es poco amigable. Así que te costará un poco encontrar la zona de estudio. Esta zona se encuentra en el extremo occidental de la costa mediterránea andaluza, a pocos kilómetros de la costa. La siguiente imagen muestra una visualización aproximada de la zona que has de seleccionar con la herramienta del portal de GBIF. Fíjate en las referencias geográficas del mapa para seleccionar tú una zona parecida: ciudad de Marbella al sur, embalses al norte y al oeste de la zona, etc.
+
+![contorno_gbif](https://github.com/aprendiendo-cosas/A_segmentacion_SIG_II_geoforest/raw/main/imagenes/contorno_zona.png)
+
+
+
+
+
+
+
+
+
 - Aplica el código de R que vimos en la sesión del mapa de biodiversidad para generar dicho mapa en la nueva zona de estudio. Tendrás que modificar ligeramente el código para que funcione en estas nuevas condiciones. Recuerda que necesitarás asignar a cada punto de GBIF el código del polígono del mapa de vegetación en el que se encuentra. Eso implica que cada polígono debe de tener un campo con valores únicos. Comprueba si esto es así y si no, genéralo tú. 
 - El resultado del script de R es un fichero de formas vectorial. Para usarlo en el ejercicio de segmentación del territorio, debe de estar en formato raster. Así que transfórmalo a Raster con las siguientes características:
   - Formato tiff (geotiff)
