@@ -60,10 +60,10 @@ Deberás de crear un flujograma con tu propuesta de procesos para satisfacer la 
 
 El hecho de que hablemos aquí de esta variable no quiere decir que debas de usarla obligatoriamente. Es tu elección. Aquí solo te damos indicaciones para que la consideres en tu estudio. Lo que sí tendrás que hacer es generar el mapa de biodiversidad de Sierra Bermeja aunque no la uses para la segmentación. Para ello ten en cuenta lo siguiente:
 
-- [Este](https://github.com/aprendiendo-cosas/A_segmentacion_SIG_II_geoforest/raw/2022-2023/geoinfo/vegetacion_sierra_bermeja.zip) enlace contiene un mapa de vegetación de la zona de estudio. Recuerda que en este caso deberás de construir un mapa de vegetación usando los polígonos del mapa anterior como "subrrogados" de las comunidades ecológicas. 
+- [Este](https://github.com/aprendiendo-cosas/A_segmentacion_SIG_II_geoforest/raw/2023_2024/geoinfo/vegetacion_sierra_bermeja.zip) enlace contiene un mapa de vegetación de la zona de estudio. Recuerda que en este caso deberás de construir un mapa de vegetación usando los polígonos del mapa anterior como "subrrogados" de las comunidades ecológicas. 
 - Descarga todos los datos de presencia de especies en la zona de estudio en el portal de [GBIF](https://www.gbif.org/). En [este](https://youtu.be/6OOusJU4ljs?t=1456) vídeo puedes ver cómo se hace eso. El vídeo es muy largo, así que no avances más allá de donde se explica este asunto. Comprobarás que el mapa que tiene GBIF para descargar los datos es poco amigable. Así que te costará un poco encontrar la zona de estudio. Esta zona se encuentra en el extremo occidental de la costa mediterránea andaluza, a pocos kilómetros de la costa. La siguiente imagen muestra una visualización aproximada de la zona que has de seleccionar con la herramienta del portal de GBIF. Fíjate en las referencias geográficas del mapa para seleccionar tú una zona parecida: ciudad de Estepona al sur, embalses al norte y al oeste de la zona, etc.
 
-![contorno_gbif](https://github.com/aprendiendo-cosas/A_segmentacion_SIG_II_geoforest/raw/2022-2023/imagenes/contorno_zona_gbif.png)
+![contorno_gbif](https://github.com/aprendiendo-cosas/A_segmentacion_SIG_II_geoforest/raw/2023_2024/imagenes/contorno_zona_gbif.png)
 
 
 
@@ -103,7 +103,7 @@ Una vez realizados los pasos anteriores deberás de construir un documento de te
 
   
 
-Una vez elaborado el documento, súbelo a [este](https://moodle.uco.es/m2223/mod/assign/view.php?id=183036) enlace (también lo tienes en el Moodle de la asignatura). El plazo de entrega es hasta el **8 de enero a las 23:59**.
+Una vez elaborado el documento, súbelo a [este](https://moodle.uco.es/m2324/mod/assign/view.php?id=188301) enlace (también lo tienes en el Moodle de la asignatura). El plazo de entrega es hasta el **8 de enero a las 23:59**.
 
 
 
@@ -114,6 +114,7 @@ El objetivo final de esta actividad es promover el aprendizaje profundo. Sabemos
 Según la filosofía anterior, estaremos encantados de leer vuestros trabajos antes de que hagáis la entrega final. Podéis enviarlos para que los revisemos y los devolveremos con comentarios. 
 
 Además, os recomendamos que trabajéis juntos y que os ayudéis entre vosotros. Esto es importante porque las personas que tienen un nivel de conocimientos parecidos aprenden mejor juntos. Pero es importante que la entrega final sea individual. Es decir, podéis compartir el trabajo, pero la redacción y elaboración del material final debe de ser individual. Si os copiais lo vamos a ver y no os va a  gustar. Si honestamente consideráis que algunos trabajos se parecen mucho, por favor, hacédnoslo saber y veremos cómo proceder.
+
 
 
 ## Evaluación del aprendizaje
