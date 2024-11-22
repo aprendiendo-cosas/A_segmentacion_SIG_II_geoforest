@@ -2,8 +2,8 @@
 
 
 
-
->+ **_Versión_**: 2023-2024
+> + **_Tipo de material_**: <span style="display: inline-block; font-size: 12px; color: white; background-color: #8D26F5; border-radius: 5px; padding: 5px; font-weight: bold;"> Tarea</span>
+>+ **_Versión_**: 2024-2025
 >+ **_Asignatura_** : SIG II (Máster GEOFOREST). 
 >+ **_Autores_**: Antonio J. Molina Herrera (o22mohea@uco.es) y Curro Bonet-García (fjbonet@uco.es)
 
@@ -42,7 +42,7 @@ Para satisfacer la demanda que se hace en la sección anterior, tendrás que dar
 
 **1. Crear un flujograma (flujo de trabajo) con las variables y técnicas de integración que consideres adecuadas**
 
-Una parte importante del aprendizaje a adquirir consiste en construir un flujo de trabajo coherente a partir de las sesiones teórico-práticas que hemos realizado en la asignatura. Puedes basarte en el esquema inicial que se describe en la sesión introductoria ([aquí](https://raw.githack.com/aprendiendo-cosas/Te_introduccion_SIG_II_geoforest/2023_2024/guion_introduccion_SIG_II_geoforest.html) el guión) o empezar uno tú mismo/a. Te sugerimos que uses la aplicación [draw.io](https://www.drawio.com/blog/diagrams-offline) para hacer el flujograma. 
+Una parte importante del aprendizaje a adquirir consiste en construir un flujo de trabajo coherente a partir de las sesiones teórico-práticas que hemos realizado en la asignatura. Puedes basarte en el esquema inicial que se describe en la sesión introductoria ([aquí](https://raw.githack.com/aprendiendo-cosas/Te_introduccion_SIG_II_geoforest/2024_2025/guion_introduccion_SIG_II_geoforest.html) el guión) o empezar uno tú mismo/a. Te sugerimos que uses la aplicación [draw.io](https://www.drawio.com/blog/diagrams-offline) para hacer el flujograma. 
 
 Recuerda que los objetivos que hay en el flujo de trabajo tienen diferentes significados en función de su geometría:
 
@@ -60,10 +60,10 @@ Deberás de crear un flujograma con tu propuesta de procesos para satisfacer la 
 
 El hecho de que hablemos aquí de esta variable no quiere decir que debas de usarla obligatoriamente. Es tu elección. Aquí solo te damos indicaciones para que la consideres en tu estudio. Lo que sí tendrás que hacer es generar el mapa de biodiversidad de Sierra Bermeja aunque no la uses para la segmentación. Para ello ten en cuenta lo siguiente:
 
-- [Este](https://github.com/aprendiendo-cosas/A_segmentacion_SIG_II_geoforest/raw/2023_2024/geoinfo/vegetacion_sierra_bermeja.zip) enlace contiene un mapa de vegetación de la zona de estudio. Recuerda que en este caso deberás de construir un mapa de vegetación usando los polígonos del mapa anterior como "subrrogados" de las comunidades ecológicas. 
+- [Este](https://github.com/aprendiendo-cosas/A_segmentacion_SIG_II_geoforest/raw/2024_2025/geoinfo/vegetacion_sierra_bermeja.zip) enlace contiene un mapa de vegetación de la zona de estudio. Recuerda que en este caso deberás de construir un mapa de vegetación usando los polígonos del mapa anterior como "subrrogados" de las comunidades ecológicas. 
 - Descarga todos los datos de presencia de especies en la zona de estudio en el portal de [GBIF](https://www.gbif.org/). En [este](https://youtu.be/6OOusJU4ljs?t=1456) vídeo puedes ver cómo se hace eso. El vídeo es muy largo, así que no avances más allá de donde se explica este asunto. Comprobarás que el mapa que tiene GBIF para descargar los datos es poco amigable. Así que te costará un poco encontrar la zona de estudio. Esta zona se encuentra en el extremo occidental de la costa mediterránea andaluza, a pocos kilómetros de la costa. La siguiente imagen muestra una visualización aproximada de la zona que has de seleccionar con la herramienta del portal de GBIF. Fíjate en las referencias geográficas del mapa para seleccionar tú una zona parecida: ciudad de Estepona al sur, embalses al norte y al oeste de la zona, etc.
 
-![contorno_gbif](https://github.com/aprendiendo-cosas/A_segmentacion_SIG_II_geoforest/raw/2023_2024/imagenes/contorno_zona_gbif.png)
+![contorno_gbif](https://raw.githubusercontent.com/aprendiendo-cosas/A_segmentacion_SIG_II_geoforest/2024_2025/imagenes/contorno_zona_gbif.png)
 
 
 
@@ -71,7 +71,7 @@ El hecho de que hablemos aquí de esta variable no quiere decir que debas de usa
 - El resultado del script de R es un fichero de formas vectorial. Para usarlo en el ejercicio de segmentación del territorio, debe de estar en formato raster. Así que transfórmalo a un Raster con las siguientes características:
   - Formato tiff (geotiff)
   - Resolución de pixel de 10x10 m
-  - Banda alfa a partir del índice de Shannon (campo H)
+  - Campo a partir del cual generar el raster: H
 - Recorta la capa del índice de Shannon con la de la zona de estudio que obtuviste en la sesión de clase en la que trabajamos con GEE y delimitamos con detalle la zona del incendio.
 
 
@@ -88,22 +88,22 @@ Deberás de construir un raster que segmente el territorio en zonas homogéneas 
 
 ## Material a entregar
 
-Una vez realizados los pasos anteriores deberás de construir un documento de texto que contenga los siguientes elementos:
-
-+ Esquema general del flujo de trabajo que has seguido para completar el ejercicio. Puedes usar cualquier herramienta digital que consideres (ej. powerpoint, [drawio](https://www.draw.io/), etc.).
-
-+ Texto describiendo lo siguiente:
-
-  + Justificación de las variables que has elegido.
+Una vez realizados los pasos anteriores deberás de construir un documento que se asemeje a un informe técnico para que la Junta de Andalucía (promotora del estudio) puede planificar en base a éste donde focalizar sus esfuerzos de restauración en la zona. El documento deberá contener los siguientes elementos:
++ Introducción y objetivos del informe.
++ "Abordaje" metodológico del caso de estudio:
+  + Esquema general del flujo de trabajo que has seguido para completar el ejercicio. Puedes usar cualquier herramienta digital que consideres (ej. powerpoint, [drawio](https://www.draw.io/), etc.).
   + Descripción de los métodos utilizados, errores cometidos, principales aprendizajes, etc.
-  + Descripción del método o de los métodos de integración de variables que elijas. Debes de justificarlo todo lo mejor posible usando conceptos ecológicos y forestales. 
+  + Descripción del método o de los métodos de integración de variables que elijas. Debes de justificarlotodo lo mejor posible usando conceptos ecológicos y forestales.
   + Propuestas de mejora que se te ocurran. Nuevas variables o técnicas analíticas diferentes.
-
-+ Composición de mapa con los resultados de segmentación obtenidos. Puedes construirlo con QGIS, ArcGIS, R o como quieras.
++ Resultado final:
+  + Composición de mapa con los resultados de segmentación obtenidos. Puedes construirlo con QGIS, ArcGIS, R o como quieras.
+  + Otros que se te ocurran que ayuden a la comprensión del mapa final y que apoyen tu discusión final (último apartado de cierre)
++ Breve discusión del mapa final.
++ Fuentes de información utilizadas. Incluye aquí enlaces a las conversaciones con ChatGPT u otra IA que hayas usado en tu trabajo. Normalmente todas ellas tienen un botón de compartir.
 
   
 
-Una vez elaborado el documento, súbelo a [este](https://moodle.uco.es/m2324/mod/assign/view.php?id=188301) enlace (también lo tienes en el Moodle de la asignatura). El plazo de entrega es hasta el **8 de enero a las 23:59**.
+Una vez elaborado el documento, súbelo a [este](https://moodle.uco.es/m2425/mod/assign/view.php?id=189068) enlace (también lo tienes en el Moodle de la asignatura). El plazo de entrega es hasta el **8 de enero a las 23:59**.
 
 
 
@@ -154,3 +154,16 @@ calificacion = (puntuacion*10) / 12
 
 
 
+
+
+****
+
+[Aquí](https://github.com/aprendiendo-cosas/A_escalas_shannon_Andalucia_SIG_II_geoforest/archive/refs/tags/2024_2025.zip) puedes descargar un archivo .zip que contiene este guión en formato html y todo el material que incluye.
+
+****
+Haz click [aquí](https://github.com/aprendiendo-cosas/A_escalas_shannon_Andalucia_SIG_II_geoforest/releases) para ver cómo ha cambiado este guión en los distintos cursos académicos.
+
+****
+ <p xmlns:cc="http://creativecommons.org/ns#" >El contenido de este repositorio se puede utilizar bajo la siguiente licencia:  <a  href="https://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1"  target="_blank" rel="license noopener noreferrer"  style="display:inline-block;">CC BY-NC-SA 4.0<img  style="height:22px!important;margin-left:3px;vertical-align:text-bottom;"   src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"  alt=""><img  style="height:22px!important;margin-left:3px;vertical-align:text-bottom;"   src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"  alt=""><img  style="height:22px!important;margin-left:3px;vertical-align:text-bottom;"   src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1"  alt=""><img  style="height:22px!important;margin-left:3px;vertical-align:text-bottom;"   src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1"  alt=""></a></p> 
+
+<p>Esta licencia no aplica a enlaces a artículos, libros o imágenes no originales. Estos productos tienen su licencia correspondiente.</p>
