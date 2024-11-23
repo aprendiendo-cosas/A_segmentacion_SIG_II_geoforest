@@ -103,7 +103,7 @@ Una vez realizados los pasos anteriores deberás de construir un documento que s
 
   
 
-Una vez elaborado el documento, súbelo a [este](https://moodle.uco.es/m2425/mod/assign/view.php?id=189068) enlace (también lo tienes en el Moodle de la asignatura). El plazo de entrega es hasta el **8 de enero a las 23:59**.
+Una vez elaborado el documento, súbelo a [este](https://moodle.uco.es/m2425/mod/assign/view.php?id=189068) enlace (también lo tienes en el Moodle de la asignatura). El plazo de entrega es hasta el **20 de enero a las 23:59**.
 
 
 
@@ -158,7 +158,7 @@ calificacion = (puntuacion*10) / 12
 
 ****
 
-[Aquí](https://github.com/aprendiendo-cosas/A_escalas_shannon_Andalucia_SIG_II_geoforest/archive/refs/tags/2024_2025.zip) puedes descargar un archivo .zip que contiene este guión en formato html y todo el material que incluye.
+[Aquí](https://github.com/aprendiendo-cosas/A_escalas_shannon_Andalucia_SIG_II_geoforest/archive/refs/tags/2024-2025.zip) puedes descargar un archivo .zip que contiene este guión en formato html y todo el material que incluye.
 
 ****
 Haz click [aquí](https://github.com/aprendiendo-cosas/A_escalas_shannon_Andalucia_SIG_II_geoforest/releases) para ver cómo ha cambiado este guión en los distintos cursos académicos.
