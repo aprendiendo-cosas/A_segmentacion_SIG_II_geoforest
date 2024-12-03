@@ -42,7 +42,7 @@ Para satisfacer la demanda que se hace en la sección anterior, tendrás que dar
 
 **1. Crear un flujograma (flujo de trabajo) con las variables y técnicas de integración que consideres adecuadas**
 
-Una parte importante del aprendizaje a adquirir consiste en construir un flujo de trabajo coherente a partir de las sesiones teórico-práticas que hemos realizado en la asignatura. Puedes basarte en el esquema inicial que se describe en la sesión introductoria ([aquí](https://raw.githack.com/aprendiendo-cosas/Te_introduccion_SIG_II_geoforest/2024_2025/guion_introduccion_SIG_II_geoforest.html) el guión) o empezar uno tú mismo/a. Te sugerimos que uses la aplicación [draw.io](https://www.drawio.com/blog/diagrams-offline) para hacer el flujograma. 
+Una parte importante del aprendizaje a adquirir consiste en construir un flujo de trabajo coherente a partir de las sesiones teórico-práticas que hemos realizado en la asignatura. Puedes basarte en el esquema inicial que se describe en la sesión introductoria ([aquí](https://rawcdn.githack.com/aprendiendo-cosas/Te_introduccion_SIG_II_geoforest/2024_2025/guion_introduccion_SIG_II_geoforest.html) el guión) o empezar uno tú mismo/a. Te sugerimos que uses la aplicación [draw.io](https://www.drawio.com/blog/diagrams-offline) para hacer el flujograma. 
 
 Recuerda que los objetivos que hay en el flujo de trabajo tienen diferentes significados en función de su geometría:
 
@@ -60,10 +60,10 @@ Deberás de crear un flujograma con tu propuesta de procesos para satisfacer la 
 
 El hecho de que hablemos aquí de esta variable no quiere decir que debas de usarla obligatoriamente. Es tu elección. Aquí solo te damos indicaciones para que la consideres en tu estudio. Lo que sí tendrás que hacer es generar el mapa de biodiversidad de Sierra Bermeja aunque no la uses para la segmentación. Para ello ten en cuenta lo siguiente:
 
-- [Este](https://github.com/aprendiendo-cosas/A_segmentacion_SIG_II_geoforest/raw/2024_2025/geoinfo/vegetacion_sierra_bermeja.zip) enlace contiene un mapa de vegetación de la zona de estudio. Recuerda que en este caso deberás de construir un mapa de vegetación usando los polígonos del mapa anterior como "subrrogados" de las comunidades ecológicas. 
+- [Este](https://github.com/aprendiendo-cosas/A_segmentacion_SIG_II_geoforest/raw/2024__2025/geoinfo/vegetacion_sierra_bermeja.zip) enlace contiene un mapa de vegetación de la zona de estudio. Recuerda que en este caso deberás de construir un mapa de vegetación usando los polígonos del mapa anterior como "subrrogados" de las comunidades ecológicas. 
 - Descarga todos los datos de presencia de especies en la zona de estudio en el portal de [GBIF](https://www.gbif.org/). En [este](https://youtu.be/6OOusJU4ljs?t=1456) vídeo puedes ver cómo se hace eso. El vídeo es muy largo, así que no avances más allá de donde se explica este asunto. Comprobarás que el mapa que tiene GBIF para descargar los datos es poco amigable. Así que te costará un poco encontrar la zona de estudio. Esta zona se encuentra en el extremo occidental de la costa mediterránea andaluza, a pocos kilómetros de la costa. La siguiente imagen muestra una visualización aproximada de la zona que has de seleccionar con la herramienta del portal de GBIF. Fíjate en las referencias geográficas del mapa para seleccionar tú una zona parecida: ciudad de Estepona al sur, embalses al norte y al oeste de la zona, etc.
 
-![contorno_gbif](https://raw.githubusercontent.com/aprendiendo-cosas/A_segmentacion_SIG_II_geoforest/2024_2025/imagenes/contorno_zona_gbif.png)
+![contorno_gbif](https://raw.githubusercontent.com/aprendiendo-cosas/A_segmentacion_SIG_II_geoforest/2024__2025/imagenes/contorno_zona_gbif.png)
 
 
 
@@ -158,10 +158,10 @@ calificacion = (puntuacion*10) / 12
 
 ****
 
-[Aquí](https://github.com/aprendiendo-cosas/A_escalas_shannon_Andalucia_SIG_II_geoforest/archive/refs/tags/2024-2025.zip) puedes descargar un archivo .zip que contiene este guión en formato html y todo el material que incluye.
+[Aquí](https://github.com/aprendiendo-cosas/A_segmentacion_SIG_II_geoforest/archive/refs/tags/2024__2025.zip) puedes descargar un archivo .zip que contiene este guión en formato html y todo el material que incluye.
 
 ****
-Haz click [aquí](https://github.com/aprendiendo-cosas/A_escalas_shannon_Andalucia_SIG_II_geoforest/releases) para ver cómo ha cambiado este guión en los distintos cursos académicos.
+Haz click [aquí](https://github.com/aprendiendo-cosas/A_segmentacion_SIG_II_geoforest/releases) para ver cómo ha cambiado este guión en los distintos cursos académicos.
 
 ****
  <p xmlns:cc="http://creativecommons.org/ns#" >El contenido de este repositorio se puede utilizar bajo la siguiente licencia:  <a  href="https://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1"  target="_blank" rel="license noopener noreferrer"  style="display:inline-block;">CC BY-NC-SA 4.0<img  style="height:22px!important;margin-left:3px;vertical-align:text-bottom;"   src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"  alt=""><img  style="height:22px!important;margin-left:3px;vertical-align:text-bottom;"   src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"  alt=""><img  style="height:22px!important;margin-left:3px;vertical-align:text-bottom;"   src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1"  alt=""><img  style="height:22px!important;margin-left:3px;vertical-align:text-bottom;"   src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1"  alt=""></a></p> 
